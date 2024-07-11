@@ -1,9 +1,9 @@
 package com.example.demo_app.service;
 
+import com.example.demo_app.entity.User;
 import com.example.demo_app.repository.UserRepository;
 import lombok.RequiredArgsConstructor;
 import com.example.demo_app.model.ChangePasswordRequest;
-import com.example.demo_app.model.User;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;

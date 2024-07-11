@@ -1,5 +1,7 @@
 package com.example.demo_app.service;
 
+import com.example.demo_app.entity.Token;
+import com.example.demo_app.entity.User;
 import com.example.demo_app.model.*;
 import com.example.demo_app.repository.TokenRepository;
 import com.example.demo_app.repository.UserRepository;
